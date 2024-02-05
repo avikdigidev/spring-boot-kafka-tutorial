@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "08acc6a8-fcb4-41d3-b4b8-a1745211d8d5",
+		"name": "kafka-tutorial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12052215"
+	},
+	"item": [
+		{
+			"name": "delivery-app",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8088/location/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"location",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
